@@ -143,7 +143,7 @@ if __name__ == '__main__':
     # GUIの基本MVC (Model,View,Control) のうち、
     # Model(画面構成)とViewを持つQMLをロード。
     # (ロボットのモデル情報は全てobjファイルにて定義)
-    engine.load( QtCore.QUrl("qml/load_NX01_model.qml") )
+    engine.load( QtCore.QUrl("qml/load_PA10_model.qml") )
     if not engine.rootObjects():
         sys.exit(-1)
 

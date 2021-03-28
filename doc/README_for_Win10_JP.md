@@ -1,8 +1,9 @@
 qt3D_robotViewer for Winodows10
 ===
 
-
 # 1. 概要
+
+Windows10 における本ビュワーの環境構築・利用方法を示す。  
 
 &nbsp;
 
@@ -247,7 +248,7 @@ setVersionという関数でQSurfaceFormatクラスオブジェクトに対しGL
 
 ## 5.1. ビュワーの実行
 
-viewNXA.pyを実行。  
+template_viewRobot.pyを実行。  
 
 ```
 $ pyhon3 template_viewRobot.py
